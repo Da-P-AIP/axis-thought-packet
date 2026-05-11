@@ -3,6 +3,7 @@ message: "If you use this work, please cite it using the metadata from this file
 title: "Axis Thought Packet"
 type: generic
 version: "0.1.0"
+doi: "10.5281/zenodo.20116884"
 authors:
   - name: "Da-P-AIP"
 repository-code: "https://github.com/Da-P-AIP/axis-thought-packet"
@@ -14,4 +15,3 @@ keywords:
   - "multi-agent systems"
   - "thought-state representation"
 license: "CC-BY-4.0"
-

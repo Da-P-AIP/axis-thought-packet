@@ -1,5 +1,7 @@
 # Axis Thought Packet
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20116884.svg)](https://doi.org/10.5281/zenodo.20116884)
+
 **Axis Thought Packet** is a structured thought-state representation format for human-AI and multi-agent collaboration.
 
 It is based on the **Universal Formula** framework, which treats thinking as:
@@ -76,4 +78,3 @@ When both files are present, Zenodo's GitHub integration uses `.zenodo.json` for
 ## License
 
 This repository is licensed under Creative Commons Attribution 4.0 International (`CC-BY-4.0`) unless otherwise noted.
-
