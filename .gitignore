@@ -1,0 +1,39 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Local and private working files
+private/
+draft-private/
+notes-private/
+*.local.*
+*.secret.*
+.env
+.env.*
+
+# Generated files
+dist/
+build/
+out/
+tmp/
+temp/
+
+# Large exports and local browser captures
+*.mhtml
+*.har
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+

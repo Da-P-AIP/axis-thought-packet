@@ -1,0 +1,25 @@
+{
+  "title": "Axis Thought Packet",
+  "upload_type": "software",
+  "description": "A public research package for the Axis Thought Packet / Universal Formula project.",
+  "creators": [
+    {
+      "name": "Da-P-AIP"
+    }
+  ],
+  "keywords": [
+    "axis thought packet",
+    "universal formula",
+    "research artifact"
+  ],
+  "access_right": "open",
+  "license": "other-open",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Da-P-AIP/axis-thought-packet",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
+

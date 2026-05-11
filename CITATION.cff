@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it using the metadata from this file."
+title: "Axis Thought Packet"
+type: generic
+authors:
+  - name: "Da-P-AIP"
+repository-code: "https://github.com/Da-P-AIP/axis-thought-packet"
+abstract: "A public research package for the Axis Thought Packet / Universal Formula project."
+keywords:
+  - "axis thought packet"
+  - "universal formula"
+  - "research artifact"
+license: "NOASSERTION"
+
