@@ -2,7 +2,8 @@
 
 [![PyPI version](https://img.shields.io/pypi/v/axis-thought-packet.svg)](https://pypi.org/project/axis-thought-packet/)
 [![Python](https://img.shields.io/pypi/pyversions/axis-thought-packet.svg)](https://pypi.org/project/axis-thought-packet/)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Code License: MIT](https://img.shields.io/badge/Code%20License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Docs License: CC BY 4.0](https://img.shields.io/badge/Docs%20License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20116884.svg)](https://doi.org/10.5281/zenodo.20116884)
 
 **A coordinate system for AI self-awareness — knowing where you are in thought space.**
@@ -218,4 +219,9 @@ Citation metadata: `CITATION.cff` · Zenodo metadata: `.zenodo.json`
 
 ## License
 
-CC BY 4.0 — use freely, cite the source.
+This repository uses a dual-license structure:
+
+- Source code in `src/`, tests, and executable examples are licensed under the MIT License.
+- Documentation, schemas, research notes, and publication materials are licensed under Creative Commons Attribution 4.0 International (`CC-BY-4.0`) unless otherwise noted.
+
+See [`LICENSE.md`](./LICENSE.md).
