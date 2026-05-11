@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "axis-thought-packet"
+version = "0.1.0"
+description = "A structured thought-state representation format for human-AI and multi-agent collaboration"
+readme = "README.md"
+license = { file = "LICENSE.md" }
+authors = [
+    { name = "Da-P-AIP" }
+]
+keywords = [
+    "ai", "llm", "thought", "cognition", "multi-agent",
+    "context", "handoff", "claude", "gpt", "prompt-engineering"
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+requires-python = ">=3.9"
+dependencies = []  # zero dependencies — pure Python
+
+[project.urls]
+Homepage = "https://github.com/Da-P-AIP/axis-thought-packet"
+Repository = "https://github.com/Da-P-AIP/axis-thought-packet"
+Issues = "https://github.com/Da-P-AIP/axis-thought-packet/issues"
+DOI = "https://doi.org/10.5281/zenodo.20116884"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "src"
