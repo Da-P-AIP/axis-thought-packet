@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "axis-thought-packet"
-version = "0.1.0"
+version = "0.1.1"
 description = "A structured thought-state representation format for human-AI and multi-agent collaboration"
 readme = "README.md"
 license = { file = "LICENSE.md" }
