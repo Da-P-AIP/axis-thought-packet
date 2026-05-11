@@ -1,0 +1,37 @@
+{
+  "packet_id": "example.universal-formula-definition.v0.1",
+  "version": "0.1.0",
+  "title": "Universal Formula Definition",
+  "thought_state": {
+    "focus": "Define thinking as state, transition, and translation.",
+    "intent": "Provide a compact foundation for Axis Thought Packet records.",
+    "confidence": 0.74,
+    "assumptions": [
+      "A thought can be represented as a structured state.",
+      "Continuity depends on preserving active context rather than full history."
+    ],
+    "open_questions": [
+      "Which fields are essential for v0.1 interoperability?"
+    ]
+  },
+  "axes": {
+    "subject": "Universal Formula",
+    "context": "public specification draft",
+    "stance": "definition",
+    "time": "2026-05-11"
+  },
+  "transition": {
+    "from": "informal concept",
+    "to": "public specification object",
+    "method": "extract the minimal state-transition-translation structure"
+  },
+  "constraints": [
+    "Avoid private source logs.",
+    "Keep the definition lightweight."
+  ],
+  "next_actions": [
+    "Compare examples against the JSON Schema.",
+    "Refine terminology before v0.1.0 release."
+  ]
+}
+

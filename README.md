@@ -1,15 +1,61 @@
 # Axis Thought Packet
 
-Axis Thought Packet is a public research repository for organizing and publishing the core materials of the Axis Thought Packet / Universal Formula project.
+**Axis Thought Packet** is a structured thought-state representation format for human-AI and multi-agent collaboration.
 
-This repository is being prepared for public release and Zenodo archiving.
+It is based on the **Universal Formula** framework, which treats thinking as:
+
+1. a thought state,
+2. a state transition,
+3. and a state translation between humans, AI agents, and multi-agent systems.
+
+The goal of this project is to provide a lightweight, extensible format for representing, sharing, inheriting, and inspecting thought states across collaborative intelligence systems.
+
+## Status
+
+This repository is an early public specification package prepared for GitHub release and Zenodo archiving.
+
+Current version target: `v0.1.0`
+
+## Core Ideas
+
+- **Universal Formula** - a minimal framework for describing thought as state, transition, and translation.
+- **Axis Thought Packet** - a portable representation of a thought state and its context.
+- **Thought Lens** - an interpretive lens that maps a packet into another viewpoint, agent, or task.
+- **Three Theorems** - early working principles for continuity, translation, and inheritance of thought states.
 
 ## Repository Contents
 
+- `docs/` - public specification notes and Zenodo submission checklist
+- `schema/` - JSON Schema for Axis Thought Packet records
+- `examples/` - example packets and use cases
 - `paper/` - manuscript drafts and publication materials
-- `docs/` - notes, submission checklists, and supporting documentation
-- `src/` - implementation files, if the project includes code
-- `examples/` - public examples and reproducible demonstrations
+- `src/` - implementation files, if code is added later
+
+## Quick Example
+
+```json
+{
+  "packet_id": "example.ai-agent-handoff.v0.1",
+  "version": "0.1.0",
+  "title": "AI Agent Handoff",
+  "thought_state": {
+    "focus": "Continue a repository preparation task for Zenodo release.",
+    "intent": "Preserve continuity across agents without exposing private notes.",
+    "confidence": 0.78
+  },
+  "axes": {
+    "subject": "Axis Thought Packet",
+    "context": "GitHub and Zenodo publication workflow",
+    "stance": "public specification draft",
+    "time": "2026-05-11"
+  },
+  "transition": {
+    "from": "initial repository scaffold",
+    "to": "v0.1 public specification package",
+    "method": "schema, examples, docs, and metadata refinement"
+  }
+}
+```
 
 ## Publication Plan
 
@@ -23,12 +69,11 @@ The recommended path is:
 
 ## Citation
 
-Citation metadata is drafted in `CITATION.cff`. Please update the author name, title, abstract, keywords, and release date before the first public release.
+Citation metadata is provided in `CITATION.cff`. Zenodo metadata is provided in `.zenodo.json`.
+
+When both files are present, Zenodo's GitHub integration uses `.zenodo.json` for the archived record metadata, while GitHub uses `CITATION.cff` for repository citation display.
 
 ## License
 
-License is not finalized yet. Choose a license before the first public release, for example:
-
-- CC BY 4.0 for papers, documentation, and datasets
-- MIT or Apache-2.0 for source code
+This repository is licensed under Creative Commons Attribution 4.0 International (`CC-BY-4.0`) unless otherwise noted.
 

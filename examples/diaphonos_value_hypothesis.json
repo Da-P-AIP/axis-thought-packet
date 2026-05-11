@@ -1,0 +1,37 @@
+{
+  "packet_id": "example.diaphonos-value-hypothesis.v0.1",
+  "version": "0.1.0",
+  "title": "Diaphonos Value Hypothesis",
+  "thought_state": {
+    "focus": "Represent a value hypothesis as a transferable thought state.",
+    "intent": "Show how a conceptual hypothesis can be packaged without requiring raw notes.",
+    "confidence": 0.62,
+    "assumptions": [
+      "A value hypothesis can be made legible through axes and constraints.",
+      "Public examples should avoid private implementation details."
+    ],
+    "open_questions": [
+      "What evidence model should v0.2 add?"
+    ]
+  },
+  "axes": {
+    "subject": "Diaphonos value hypothesis",
+    "context": "conceptual example",
+    "stance": "hypothesis",
+    "time": "2026-05-11"
+  },
+  "transition": {
+    "from": "private conceptual exploration",
+    "to": "public reusable example",
+    "method": "preserve the abstract hypothesis while removing private source material"
+  },
+  "constraints": [
+    "Do not include private conversation logs.",
+    "Treat this as a demonstration example, not a finalized theory."
+  ],
+  "next_actions": [
+    "Add formal evidence links when public sources are available.",
+    "Clarify the relationship between value, lens, and thought state."
+  ]
+}
+

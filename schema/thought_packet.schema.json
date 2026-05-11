@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Da-P-AIP/axis-thought-packet/schema/thought_packet.schema.json",
+  "title": "Axis Thought Packet",
+  "description": "A lightweight schema for representing a thought state, its axes, and a transition for human-AI and multi-agent collaboration.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "packet_id",
+    "version",
+    "title",
+    "thought_state",
+    "axes",
+    "transition"
+  ],
+  "properties": {
+    "packet_id": {
+      "type": "string",
+      "description": "Stable identifier for this thought packet."
+    },
+    "version": {
+      "type": "string",
+      "description": "Axis Thought Packet format version."
+    },
+    "title": {
+      "type": "string",
+      "description": "Human-readable packet title."
+    },
+    "thought_state": {
+      "type": "object",
+      "required": [
+        "focus",
+        "intent"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "focus": {
+          "type": "string"
+        },
+        "intent": {
+          "type": "string"
+        },
+        "confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "assumptions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "open_questions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "axes": {
+      "type": "object",
+      "additionalProperties": {
+        "type": [
+          "string",
+          "number",
+          "boolean",
+          "null"
+        ]
+      },
+      "description": "Contextual coordinates of the thought state."
+    },
+    "transition": {
+      "type": "object",
+      "required": [
+        "from",
+        "to",
+        "method"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "from": {
+          "type": "string"
+        },
+        "to": {
+          "type": "string"
+        },
+        "method": {
+          "type": "string"
+        }
+      }
+    },
+    "lineage": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true
+      }
+    },
+    "next_actions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
+

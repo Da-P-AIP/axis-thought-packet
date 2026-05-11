@@ -1,7 +1,7 @@
 {
   "title": "Axis Thought Packet",
   "upload_type": "software",
-  "description": "A public research package for the Axis Thought Packet / Universal Formula project.",
+  "description": "Axis Thought Packet is a structured thought-state representation format for human-AI and multi-agent collaboration. It provides a lightweight format for representing, sharing, inheriting, and inspecting thought states across humans, AI agents, and multi-agent systems.",
   "creators": [
     {
       "name": "Da-P-AIP"
@@ -10,10 +10,12 @@
   "keywords": [
     "axis thought packet",
     "universal formula",
-    "research artifact"
+    "human-AI collaboration",
+    "multi-agent systems",
+    "thought-state representation"
   ],
   "access_right": "open",
-  "license": "other-open",
+  "license": "cc-by-4.0",
   "related_identifiers": [
     {
       "identifier": "https://github.com/Da-P-AIP/axis-thought-packet",

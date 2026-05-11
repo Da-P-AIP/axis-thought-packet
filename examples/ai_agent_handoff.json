@@ -1,0 +1,41 @@
+{
+  "packet_id": "example.ai-agent-handoff.v0.1",
+  "version": "0.1.0",
+  "title": "AI Agent Handoff",
+  "thought_state": {
+    "focus": "Continue a repository preparation task for Zenodo release.",
+    "intent": "Preserve continuity across agents without exposing private notes.",
+    "confidence": 0.78,
+    "assumptions": [
+      "The public repository is the Zenodo target.",
+      "The local Zenodo folder is for non-public preparation material."
+    ],
+    "open_questions": [
+      "Should v0.1.0 be released before or after adding a manuscript PDF?"
+    ]
+  },
+  "axes": {
+    "subject": "Axis Thought Packet",
+    "context": "GitHub and Zenodo publication workflow",
+    "stance": "public specification draft",
+    "time": "2026-05-11"
+  },
+  "transition": {
+    "from": "initial repository scaffold",
+    "to": "v0.1 public specification package",
+    "method": "schema, examples, docs, and metadata refinement"
+  },
+  "lineage": {
+    "source_repository": "https://github.com/Da-P-AIP/axis-thought-packet"
+  },
+  "constraints": [
+    "Keep private drafts outside the public Git repository.",
+    "Do not publish raw browser captures."
+  ],
+  "next_actions": [
+    "Finalize license and creator metadata.",
+    "Create a GitHub release after review.",
+    "Confirm Zenodo DOI generation."
+  ]
+}
+
